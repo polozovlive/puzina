@@ -381,16 +381,26 @@ a {
     color: #fff;
 }
 
-.map-placeholder .mini-map {
-    background: #e3dbd2;
-    height: 300px;
+.map-placeholder {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
     border-radius: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #5a6a64;
-    font-weight: 500;
-    border: 1px solid #d9cfc5;
+    overflow: hidden;
+    box-shadow: 0 30px 40px rgba(0,0,0,0.02);
+    border: 1px solid #ede6de;
+}
+
+.map-placeholder iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    border: 0;
+}
+
+/* Старый блок с картой-заглушкой больше не нужен */
+.mini-map {
+    display: none;
 }
 
 /* --- FOOTER --- */
