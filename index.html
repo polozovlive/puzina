@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Юлия Пузина — Психолог</title>
+    <!-- Подключаем файл стилей -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Шрифт Montserrat для современного вида -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Шапка и навигация -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Юлия Пузина</a>
+            <nav class="nav">
+                <a href="#about">Обо мне</a>
+                <a href="#space">Кабинет</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный экран (Hero) -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="subhead">Психолог-консультант</span>
+                <h1>Пространство, где вы можете быть собой</h1>
+                <p>Бережная терапия, индивидуальный подход и полная конфиденциальность в центре города.</p>
+                <a href="#contacts" class="btn-primary">Записаться на сессию</a>
+            </div>
+            <div class="hero-visual">
+                <!-- Абстрактная форма для современного дизайна (CSS) -->
+                <div class="abstract-shape"></div>
+                <div class="abstract-shape-2"></div>
+            </div>
+        </div>
+    </section>
+
+<!-- Секция "Обо мне" -->
+<section id="about" class="about">
+    <div class="container about-container">
+        <div class="about-image">
+            <img src="./img/ava.jpg" alt="Имя Фамилия - психолог" class="profile-photo">
+        </div>
+        <div class="about-text">
+            <h2>Меня зовут Анна</h2>
+            <p>Я практикующий психолог с 10-летним стажем. Работаю в интегративном подходе, сочетая КПТ, гештальт-терапию и техники осознанности.</p>
+            <p>Моя задача — создать безопасное пространство, где вы сможете исследовать свои чувства, найти опоры и прийти к желаемым изменениям без осуждения и оценок.</p>
+            <div class="credentials">
+                <div class="cred-item">🎓 МГУ им. Ломоносова</div>
+                <div class="cred-item">🔒 Полная конфиденциальность</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Секция "Мой кабинет" с 3 фото (обязательный раздел) -->
+    <section id="space" class="space">
+        <div class="container">
+            <div class="section-header">
+                <h2>Мой кабинет</h2>
+                <p>Уютное и светлое место в тихом центре, где вас ждут комфорт и умиротворение.</p>
+            </div>
+            
+            <!-- Галерея из 3 фотографий -->
+            <div class="gallery">
+                <div class="gallery-item">
+                    <div class="gallery-img img-1">
+                        <div class="overlay">Общий вид</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img img-2">
+                        <div class="overlay">Зона для работы</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img img-3">
+                        <div class="overlay">Детали интерьера</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция контактов -->
+    <section id="contacts" class="contacts">
+        <div class="container contacts-container">
+            <div class="contact-card">
+                <h2>Свяжитесь со мной</h2>
+                <p>Первая 15-минутная консультация-знакомство бесплатно.</p>
+                
+                <div class="contact-methods">
+                    <div class="method">
+                        <span class="icon">📱</span>
+                        <span>+7 (9O5) 81O-47-**</span>
+                    </div>
+                    <div class="method">
+                        <span class="icon">✉️</span>
+                        <span>puzina.psy@internet.ru</span>
+                    </div>
+                    <div class="method">
+                        <span class="icon">📍</span>
+                        <span>Оренбург, Матросский пер. 12</span>
+                    </div>
+                </div>
+                
+                <!-- Кнопка для мессенджера (декоративная) -->
+                <a href="#" class="btn-outline">Написать в MAX</a>
+            </div>
+            <div class="map-placeholder">
+                <div class="mini-map">
+                   <!-- <span> -->
+                       <!-- 🗺️ Карта проезда -->
+                    <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/48/orenburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Оренбург</a><a href="https://yandex.ru/maps/48/orenburg/house/matrosskiy_pereulok_12/YUwYdg5oS0YGQFtrfXt3dXthYw==/?indoorLevel=1&ll=55.098231%2C51.764727&utm_medium=mapframe&utm_source=maps&z=17.06" style="color:#eee;font-size:12px;position:absolute;top:14px;">Матросский переулок, 12 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=55.098231%2C51.764727&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg2NjkzOTcyMRJJ0KDQvtGB0YHQuNGPLCDQntGA0LXQvdCx0YPRgNCzLCDQnNCw0YLRgNC-0YHRgdC60LjQuSDQv9C10YDQtdGD0LvQvtC6LCAxMiIKDZdkXEIVFQ9PQg%2C%2C&z=17.06" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+                  <!--  </span> -->
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Юлия Пузина. Психологическая практика.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
